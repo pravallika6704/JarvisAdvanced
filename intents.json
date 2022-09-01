@@ -1,0 +1,108 @@
+{
+
+    "intents":[
+
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey","wake up","jarvis"
+
+            ],
+            "responses":["Hello Sir","How are You Sir","Always For You Sir","Hello","Here's your Assistant."
+
+            ]
+        },
+
+
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit"
+
+            ],
+            "responses":["Bye.","I am Going.","Bye Sir","Good Bye","It'll be Nice to Meet You Again","See You Later"
+
+            ]
+        },
+
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","how are you doing","what's up"
+
+            ],
+            "responses":["Fine.","Perfect.","Cool.","Doing great here","Like You","I am doing Good, What about You?"
+
+            ]
+        },
+
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"
+
+            ],
+            "responses":["Jarvis","I am Jarvis.","An A.I Assistant","My Name is Jarvis","Great Assistant"
+
+            ]
+        },
+
+        {
+            "tag":"time",
+            "patterns":["what is time","time","what's the time","samay","tell me the time"
+
+            ],
+            "responses":["time" 
+
+            ]
+        },
+
+        {
+            "tag":"date",
+            "patterns":["date","what's the date","tareek","what is today's date"
+
+            ],
+            "responses":["date" 
+
+            ]
+        },
+
+        {
+            "tag":"day",
+            "patterns":["what day","day","what day is it today","what's the day","today"
+
+            ],
+            "responses":["day" 
+
+            ]
+        },
+
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","tell me about","wikipedia"
+
+            ],
+            "responses":["wikipedia" 
+
+            ]
+        },
+
+        {
+            "tag":"google",
+            "patterns":["google search","google","search"
+
+            ],
+            "responses":["google" 
+
+            ]
+        },
+
+        {
+            "tag":"music",
+            "patterns":["play me some music","play","put on","put on some music"
+
+            ],
+            "responses":["music" 
+
+            ]
+        }
+
+    ]
+
+}
